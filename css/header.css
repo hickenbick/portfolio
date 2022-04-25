@@ -1,0 +1,36 @@
+.header {
+  max-width: 1200px;
+  padding: 20px 20px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header h1 {
+  font-family: "fira sans", arial, sans-serif;
+  font-size: 2rem;
+  font-weight: 500;
+}
+.header-menu {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: center;
+}
+.header-menu a:hover {
+  background: #e0e0e0;
+}
+.header-menu a {
+  background: #f5f5f5;
+}
+@media (max-width: 800px) {
+  .header {
+    flex-direction: column;
+    gap: 20px ;
+    padding: 20px 0 0px;
+  }
+  .header a {
+    background: #f5f5f5;
+    border-radius: 4px;
+  }
+}

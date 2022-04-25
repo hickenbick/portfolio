@@ -1,0 +1,137 @@
+.portfolio {
+  max-width: 1200px;
+  padding: 40px 20px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 100px;
+}
+.subtitulo {
+  color: #e0e0e0;
+  margin-top: -10px;
+  min-width: 4.8ch;
+}
+.portfolio-texto {
+  font-size: 1.5rem;
+  line-height: 1.33;
+  max-width: 40ch;
+  margin-bottom: 20px;
+  color: #525252;
+}
+.portfolio-texto strong {
+  color: #141414;
+}
+.projeto::before {
+  content: "";
+  display: block;
+  background: linear-gradient(#b6f929, #67dd0a);
+  width: 4px;
+  height: 26px;
+  position: absolute;
+  top: 16px;
+  left: -4px;
+}
+.projeto {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  padding: 20px;
+  background: #f5f5f5;
+  margin-bottom: 20px;
+  position: relative;
+  border-radius: 6px;
+  gap: 0 20px;
+}
+.projeto-ano {
+  color: #525252;
+  font-size: 0.875rem;
+  position: absolute;
+  left: -100px;
+  top: 20px;
+  width: 80px;
+  text-align: right;
+}
+.container-execucao {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+}
+.projeto-titulo {
+  font-size: 1.125rem;
+  line-height: 1.1;
+  font-weight: bold;
+}
+.projeto-texto,
+.execucao {
+  font-size: 0.875rem;
+  line-height: 1.5;
+  color: #525252;
+}
+.projeto-texto {
+  padding-top: 10px;
+}
+.container-botao-visualizar {
+  display: grid;
+  place-content: end end;
+}
+.botao-visualizar {
+  display: inline-block;
+  background: #fff;
+}
+.btn-seta {
+  display: flex;
+  align-items: center;
+}
+.btn-seta::after {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 10px;
+  margin-left: 12px;
+  background: url("../img/seta.svg");
+}
+.btn-seta:hover:after {
+  margin-right: -3px;
+  margin-left: 15px;
+  transition: 0.2s;
+}
+@media (max-width: 1000px) {
+  .portfolio {
+    grid-template-columns: 1fr 2fr;
+    gap: 30px;
+    padding: 40px 20px;
+  }
+  .portfolio-texto {
+    font-size: 1.25rem;
+  }
+}
+@media (max-width: 800px) {
+  .portfolio {
+    grid-template-columns: 1fr;
+  }
+  .portfolio .subtitulo {
+    color: #141414;
+  }
+  .empresa-ano {
+    position: absolute;
+    top: 21px;
+    left: 120px;
+  }
+}
+@media (max-width: 650px){
+  .projeto {
+    display: block;
+  }
+  .projeto-texto {
+    padding: 10px 0;
+  }
+  .container-botao-visualizar {
+    display: grid;
+    place-content: start start;
+  }
+}
+@media (max-width: 500px) {
+  .empresa {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}

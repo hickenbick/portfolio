@@ -1,0 +1,44 @@
+.foto-intro {
+  background: url("../img/bg-sobre.jpg");
+  width: 100%;
+  background-size: cover;
+  height: 160px;
+  margin-top: 78px;
+}
+
+.header-menu ul li a.menu-ativo {
+  color: #fff;
+}
+.informacoes {
+  padding-top: 60px;
+}
+.informacoes h2 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: left;
+  letter-spacing: 0.1em;
+}
+.informacoes h2:after {
+  content: "";
+  display: block;
+  background: #000;
+  width: 60px;
+  height: 3px;
+  margin: 10px 0px 10px 0px;
+}
+.informacoes p {
+  color: #000;
+  font-size: 18px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: normal;
+  line-height: 25px;
+}
+.historia {
+  padding-right: 20px;
+  margin-bottom: 40px;
+}
+.valores {
+  margin-bottom: 40px;
+}

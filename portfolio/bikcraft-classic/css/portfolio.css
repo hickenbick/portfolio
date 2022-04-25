@@ -1,0 +1,52 @@
+.introducao-interna {
+  background: url("../img/bg-portfolio.jpg") no-repeat center;
+  background-size: cover;
+}
+.quote-bc {
+  padding: 60px 0;
+}
+.quote-bc blockquote {
+  max-width: 450px;
+  margin: 0 auto;
+}
+.quote-bc blockquote p {
+  font-size: 18px;
+  font-style: italic;
+  color: #000;
+  text-align: center;
+  margin-bottom: 20px;
+  line-height: 25px;
+}
+.cite {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  font-style: normal;
+  float: right;
+}
+.portfolio-2 {
+  background-color: #000;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.portfolio-2 img:last-child {
+  margin-top: 20px;
+}
+
+/*JAVASCRIPT*/
+[data-slide] {
+  position: relative;
+}
+[data-slide] > * {
+  position: absolute;
+  top: 0px;
+  opacity: 0;
+}
+[data-slide] > .active {
+  position: relative;
+  opacity: 1;
+  transition: opacity 500ms;
+  z-index: 1;
+  transition: opacity 500ms;
+}

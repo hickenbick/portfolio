@@ -1,0 +1,136 @@
+.introducao-interna {
+  background: url("../img/bg-produtos.jpg") no-repeat center;
+  background-size: cover;
+}
+.produto-item {
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+.produto-item h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 36px;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #fff;
+  position: relative;
+  top: -185px;
+  margin-bottom: -55px;
+}
+
+.produto-item h2:after,
+.produto-item h2:before {
+  width: 60px;
+  height: 3px;
+  background-color: #fff;
+  content: "";
+  display: block;
+  margin: 8px auto 6px auto;
+}
+.produto-icone {
+  background-color: #000;
+}
+.produto-icone img {
+  margin: 0 auto;
+  padding: 70px 0;
+}
+.produto-info {
+  background: #000;
+  margin-bottom: 20px;
+}
+.produto-info p {
+  font-size: 16px;
+  line-height: 22px;
+  padding: 30px 40px;
+  height: 180px;
+}
+.produto-info ul li {
+  background: #fec63e;
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  text-align: center;
+  text-transform: uppercase;
+  line-height: 20px;
+  letter-spacing: 0.05em;
+  float: left;
+  width: 229px;
+  height: 49px;
+  padding-top: 15px;
+}
+.produto-info ul li:nth-child(odd) {
+  margin-right: 2px;
+}
+.produto-info ul li:nth-child(1),
+.produto-info ul li:nth-child(2) {
+  margin-bottom: 2px;
+}
+
+/*Orçamento*/
+.orcamento {
+  width: 100%;
+  background-color: #000;
+  padding: 60px 0;
+}
+.subtitulo {
+  color: #fec63e;
+  text-align: center;
+}
+.subtitulo:after {
+  background-color: #fec63e;
+}
+.form {
+  padding-right: 60px;
+  background: #000;
+}
+.form label {
+  display: block;
+  width: 100%;
+  color: #fff;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 25px;
+}
+.form input,
+.form textarea {
+  width: 100%;
+  display: block;
+  border: solid 3px #fec63e;
+  background: none;
+  color: #fff;
+  padding: 8px 10px;
+  outline: none;
+  margin: 3px 0 10px 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 14px;
+}
+.form textarea {
+  height: 120px;
+  margin-bottom: 20px;
+}
+.form button {
+  background: none;
+}
+.h3 {
+  color: #fec63e;
+}
+.orcamento-dados span {
+  display: block;
+  color: #fff;
+  font-size: 18px;
+}
+.span-2 {
+  margin-bottom: 30px;
+}
+.orcamento-dados p {
+  font-size: 16px;
+  padding-bottom: 5px;
+}
+.orcamento-dados ul li {
+  color: #fff;
+  padding: 10px;
+  font-size: 16px;
+}
+.orcamento-dados ul li:nth-child(odd) {
+  background: #1d1d1d;
+}
