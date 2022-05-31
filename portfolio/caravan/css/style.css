@@ -1,0 +1,40 @@
+body {
+  padding-top: 76px;
+}
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0,.05), 0 4px 8px 0 rgba(0, 0, 0,.05);
+}
+.icon {
+  display: inline-block;
+  padding-right: .5rem;
+} 
+.list-line li + li{
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+}
+.list-line li{
+  padding: 1rem 0;
+}
+.margin-0-auto {
+  margin: 0 auto;
+}
+#home-background {
+  background-image: url('../img/bg-quote.jpg');
+  background-size: cover;
+}
+@media(max-width: 767px) {
+  #home-background p{
+    font-size: 2.5rem;
+  }
+  .fixed-top {
+    position: initial;
+  }
+  body {
+    padding-top: 0px;
+  }
+}
+@media(max-width: 575px) {
+  .text-align-center{
+    text-align: center;
+  }
+}
+
